@@ -17,10 +17,6 @@ Le portfolio comprend plusieurs sections, notamment :
 - Projets : Une sélection de projets sur lesquels j'ai travaillé, accompagnés de descriptions et de liens vers le code source ou les démonstrations en direct.
 - Contact : Vous pouvez me contacter via les médias sociaux, LinkedIn et e-mail.
 
-## Capture d'écran
-
-![Aperçu du portfolio]([assets/capture-d'ecran-portfolio.png])
-
 ## Comment exécuter localement
 
 1. Clonez ce dépôt : `git clone git@github.com:BlueEel/mon-portfolio.git`
