@@ -454,7 +454,7 @@ h1 {
         font-size: 1rem;
     }
     .p-accueil {
-        margin-right: 1.5rem;
+        padding-right: 1.5rem;
     }
     .btn-rond-menu {
         width: 60px;
