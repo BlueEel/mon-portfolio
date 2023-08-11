@@ -453,6 +453,9 @@ h1 {
     .accueil p {
         font-size: 1rem;
     }
+    .p-accueil {
+        margin-right: 1.5rem;
+    }
     .btn-rond-menu {
         width: 60px;
         height: 60px;
@@ -994,6 +997,7 @@ hr {
     width: 100%; 
     height: auto;
     border-bottom: none;
+    margin-bottom: 5rem;
 }
 .section-contact h2 {
     text-align: center;
