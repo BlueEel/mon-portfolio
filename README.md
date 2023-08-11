@@ -19,7 +19,7 @@ Le portfolio comprend plusieurs sections, notamment :
 
 ## Capture d'écran
 
-![Aperçu du portfolio]([../assets/capture-d'ecran-portfolio.png])
+![Aperçu du portfolio]([assets/capture-d'ecran-portfolio.png])
 
 ## Comment exécuter localement
 
