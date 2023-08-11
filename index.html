@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - BC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/assets/blueeel_crop.png" />
+    <script src="https://kit.fontawesome.com/feed0b9777.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Quicksand:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Splash&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Btn flottant gauche petit menu-->
+
+    <div class="btn-rond-menu">
+        <div class="cont-ligne">
+            <div class="ligne-unique"></div>
+        </div>
+    </div>
+
+    <!-- Navigation verticale -->
+
+    <nav class="nav-gauche">
+
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#accueil" class="nav-link active" aria-selected="true">
+                    Accueil
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#pres" class="nav-link" aria-selected="false">
+                    Présentation
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#port" class="nav-link" aria-selected="false">
+                    Projets
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#range" class="nav-link" aria-selected="false">
+                    Compétences
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#exp" class="nav-link" aria-selected="false">
+                    Expériences
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#contact" class="nav-link" aria-selected="false">
+                    Contact
+                </a>
+            </span>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+
+    <section class="accueil" id="accueil">
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="neon">Bienvenue</h1>
+                <p class="txt-animation"></p>
+                <div class="medias">
+                    <a class="text-decoration-none" href="https://github.com/BlueEel" target="_blank">
+                        <div class="media me-2">
+                            <i class="fa-brands fa-github my-custom-icon"></i>
+                        </div>
+                    </a>
+                    <a class="text-decoration-none" href="https://fr.linkedin.com/in/baptistechasset" target="_blank">
+                        <div class="media me-2">
+                            <i class="fa-brands fa-linkedin my-custom-icon"></i>
+                        </div>
+                    </a>
+                    <a class="text-decoration-none" href="mailto:baptiste.chasset@gmail.com" target="_blank">
+                        <div class="media me-2">
+                            <i class="fa-solid fa-envelope my-custom-icon"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="ms-5 mt-4">
+                    <h5><i class="fa-solid fa-radiation fa-spin fa-2x"></i>
+                        Actuellement <i class="fa-solid fa-radiation fa-spin fa-2x"></i></h5>
+                    <p>En recherche d'Alternance (1 an) [Contrat de
+                        professionnalisation].<br>
+                        Disponible dès Septembre 2023.<br>Préparation du titre : "Concepteur Développeur
+                        d'Applications" (bac+3/4).<br>
+                        Rythme 3 semaines (Entreprise) / 1 semaine (formation).</p>
+                </div>
+            </div>
+            <div class="col-lg-6 circle-animation">
+                <div class="d-flex justify-content-evenly align-content-center">
+                    <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <a href="#pres">
+            <div class="btn-rond">
+                <img src="assets/arrowDown.svg" alt="logo fleche bas" class="logo-btn-rond-acc">
+            </div>
+        </a>
+    </section>
+
+    <!-- Section Présentation - soft skills__________________________ -->
+
+    <section class="presentation position-relative" id="pres">
+
+        <h2 class="category-title">Qui suis-je ?</h2>
+
+        <div class="logo-photo ps-5 mb-5">
+            <img src="/assets/blueeel.png" alt="logo blue eel" class="logo rounded-circle imgPhoto">
+            <img src="/assets/photo.JPG" alt="photo" class="logo rounded-circle imgPhoto">
+        </div>
+
+        <div class="container-presentation">
+
+            <div class="fond-forme"></div>
+
+            <div class="pres-gauche">
+                <h3>"Toute technologie suffisamment avancée est indiscernable de la magie." - Arthur C. Clarke</h3>
+                <hr>
+                <p>Pour moi le code, c'est ça ! C'est de la magie à l'état pur et c'est ce qui m'a décidé, après
+                    quelques
+                    années passées dans l'histoire, à me reconvertir dans ce domaine, qui m'a toujours stimulé : le web.
+                    Je suis passionné par le
+                    développement web et les nouvelles
+                    technologies telles que l'IA et la 3D.</p>
+                <p>J'aime travailler en équipe. Je suis rigoureux et
+                    créatif avec le sens du détail.</p>
+                <p><i class="text-center fa-solid fa-user-astronaut me-2"></i>
+                    Vous voulez en savoir plus ?
+                </p>
+                <a href="assets/CV_Baptiste_CHASSET.pdf" target="_blank" class="btn btn-outline-warning">
+                    <i class="fa-solid fa-download me-2"></i>Télécharger mon CV</a>
+            </div>
+
+            <div class="pres-droite">
+                <ul class="liste-presentation">
+                    <li class="item-liste i1">
+                        <span class="chiffre-style">1.</span>
+                        <p class="txt-liste">Adaptabilité relationnelle</p><br>
+                        <i class="fa-solid fa-plane me-2"></i>Expérience - RoadTrip Japon
+                        ✅
+                    </li>
+                    <li class="item-liste i2">
+                        <span class="chiffre-style">2.</span>
+                        <p class="txt-liste">Esprit d'entraide</p><br><i
+                            class="fa-solid fa-person-chalkboard me-2"></i>Expérience - Professeur et
+                        Animateur ✅
+                    </li>
+                    <li class="item-liste i3">
+                        <span class="chiffre-style">3.</span>
+                        <p class="txt-liste">Esprit critique</p><br><i
+                            class="fa-solid fa-graduation-cap me-2"></i>Expérience - Recherche - Faculté
+                        d'Histoire ✅
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Section Portfolio__________________________ -->
+
+    <section class="portfolio" id="port">
+
+
+        <h2 class="category-title">Projets réalisés</h2>
+
+        <div class="cont-portfolio">
+
+
+            <div class="item vague1">
+                <div class="cont-img-port">
+                    <img src="/assets/p3lignebleue.png" alt="img portfolio">
+                </div>
+                <h3>Projet 3 - Ligne Bleue</h3>
+                <p>Réalisation d'une application PHP Symfony 6 répondant aux besoins d'un client réel. Le tout géré
+                    suivant les principes de l'agilité sur 8 sprints d'une semaine au sein d'équipe de 5 compagnons.</p>
+                <div class="row mx-2">
+                    <a href="https://la-ligne-bleue.remote-fr-1.wilders.dev/" target="_blank" class="btn-projets col"><i
+                            class="fa-solid fa-globe pe-2"></i>Découvrir le projet</a>
+                    <a href="https://github.com/BlueEel/projet-3_Ligne-Bleue" target="_blank" class="btn-projets col"><i
+                            class="fa-brands fa-github pe-2"></i>Voir le Code</a>
+                </div>
+            </div>
+
+            <div class="item vague1">
+                <div class="cont-img-port">
+                    <img src="/assets/hackathon2.png" alt="img portfolio">
+                </div>
+                <h3>Hackathon 2 - Thème revente - Emmaüs Connect</h3>
+                <p>Réalisation d'une application web dans un laps de temps maximum de 48h par équipe autour d'un
+                    algorithme de calcul de prix et de
+                    l'utilisation d'une API RESTfull.</p>
+                <div class="row mx-2">
+                    <a href="https://github.com/BlueEel/hackathon-2_Emmaus-Connect" target="_blank"
+                        class="btn-projets col"><i class="fa-brands fa-github pe-2"></i>Voir le Code</a>
+                </div>
+            </div>
+
+            <div class="item vague1">
+                <div class="cont-img-port">
+                    <img src="/assets/p2iledetijo.png" alt="img portfolio">
+                </div>
+                <h3>Projet 2 - L'île de Tijo</h3>
+                <p>Réalisation d'une application PHP (sur le model MVC mais sans framework), répondant aux besoins d'un
+                    client fictif (l'équipe pédagogique). Le tout géré suivant les principes de l'agilité sur 6 sprints
+                    d'une semaine au sein d'équipes de 3 à 5 élèves.</p>
+                <div class="row mx-2">
+                    <a href="https://ile-de-tijot.remote-fr-1.wilders.dev/" target="_blank" class="btn-projets col"><i
+                            class="fa-solid fa-globe pe-2"></i>Découvrir le projet</a>
+                    <a href="https://github.com/BlueEel/projet-2_Ile-de-Tijo" target="_blank" class="btn-projets col"><i
+                            class="fa-brands fa-github pe-2"></i>Voir le Code</a>
+                </div>
+            </div>
+
+
+            <div class="item vague2">
+                <div class="cont-img-port">
+                    <img src="/assets/hackathon1.png" alt="img portfolio">
+                </div>
+                <h3>Hackathon 1 - Thème voyage - Spacehub</h3>
+                <p>Réalisation d'une application web dans un laps de temps maximum de 36h par équipe autour de
+                    l'utilisation d'une API RESTfull.</p>
+                <div class="row mx-2">
+                    <a href="https://space-marines.remote-fr-1.wilders.dev/" target="_blank" class="btn-projets col"><i
+                            class="fa-solid fa-globe pe-2"></i>Découvrir le projet</a>
+                    <a href="https://github.com/BlueEel/hackathon-1_Spacehub" target="_blank" class="btn-projets col"><i
+                            class="fa-brands fa-github pe-2"></i>Voir le Code</a>
+                </div>
+            </div>
+
+
+            <div class="item vague2">
+                <div class="cont-img-port">
+                    <img src="/assets/p1cvironman.png" alt="img portfolio">
+                </div>
+                <h3>Projet 1 - CV d'Iron-man</h3>
+                <p>Réalisation de pages web statiques sur un site fictif sans framework. L’évaluation s’étale sur une
+                    semaine et est réalisée par groupes de 3 à 5 stagiaires.</p>
+                <div class="row mx-2">
+                    <a href="https://wildcodeschool.github.io/2023-03-remote-fr-php-projet-iron-man/index.html"
+                        target="_blank" class="btn-projets col"><i class="fa-solid fa-globe pe-2"></i>Découvrir le
+                        projet</a>
+                    <a href="https://github.com/BlueEel/projet-1_CV_Iron-Man" target="_blank" class="btn-projets col"><i
+                            class="fa-brands fa-github pe-2"></i>Voir le Code</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Section - Mes Compétences - Hard skills__________________________ -->
+
+    <section class="section-skill" id="range">
+
+        <h2 class="category-title">Compétences</h2>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card shadow-lg">
+                        <div class="card-header">
+                            <h3 class="text-center">Gestion de projet</h3>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title"><img class="me-2" src="/assets/slack.png" height="35" width="auto"
+                                    alt="logo slack">Slack</h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/git.png" height="35" width="auto"
+                                    alt="logo git">Git</h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/github.png" height="35" width="auto"
+                                    alt="logo github">Github</h6>
+                            <h6 class="card-title"><i class="fa-solid fa-layer-group fa-2x me-2"></i>Agile | SCRUM |
+                                Backlog</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card shadow-lg">
+                        <div class="card-header">
+                            <h3 class="text-center">Design UI/UX</h3>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title"><img class="me-2" src="/assets/figma.png" height="35" width="auto"
+                                    alt="logo figma">Figma | maquette</h6>
+                            <h6 class="card-title">
+                                <img class="me-2" src="/assets/excalidraw.png" height="35" width="auto"
+                                    alt="logo excalidraw">Excalidraw |
+                                wireframe
+                            </h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/canva.png" height="35" width="auto"
+                                    alt="logo canva">Canva</h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/inkscape.svg.png" height="35"
+                                    width="auto" alt="logo inkscape">Inkscape</h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/gimp.png" height="35" width="auto"
+                                    alt="logo gimp">Gimp</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card shadow-lg">
+                        <div class="card-header">
+                            <h3 class="text-center">Front-end</h3>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title"><img class="me-2" src="/assets/html5.png" height="35" width="auto"
+                                    alt="logo html">Html</h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/css3c.png" height="35" width="auto"
+                                    alt="logo css">Css</h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/javascript.png" height="35"
+                                    width="auto" alt="logo javascript">Javascript</h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/sass.svg.png" height="35" width="auto"
+                                    alt="logo scss">Scss</h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/bootstrap.svg.png" height="35"
+                                    width="auto" alt="logo bootstrap">Bootstrap</h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/picocss.png" height="35" width="auto"
+                                    alt="logo picoCSS">PicoCSS</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card shadow-lg">
+                        <div class="card-header">
+                            <h3 class="text-center">Back-end</h3>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title"><img class="me-2" src="/assets/mysql.png" height="auto" width="40"
+                                    alt="logo mysql">MySQL</h6>
+                            <h6 class="card-title"><img class="me-2" src="/assets/php.svg.png" height="auto" width="40"
+                                    alt="logo php">Php</h6>
+                            <h6 class="card-title"><i class="fa-brands fa-symfony fa-2x me-2">
+                                </i>Symfony</h6>
+
+                            <h6 class="card-title"><i class="fa-solid fa-cloud-arrow-down fa-2x me-2"></i>API RESTfull
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Mes expériences__________________________ -->
+
+    <section class="travail-exp" id="exp">
+
+        <h2 class="category-title">Expériences</h2>
+
+        <div class="cont-exp-travail">
+
+            <div class="barre-verticale">
+                <div class="boule-ico">
+                    <img src="assets/plane.svg" class="avion" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="assets/plane.svg" class="avion" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="assets/plane.svg" class="avion" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="assets/plane.svg" class="avion" alt="icone gauche">
+                </div>
+                <div class="boule-ico">
+                    <img src="assets/plane.svg" class="avion" alt="icone gauche">
+                </div>
+            </div>
+
+
+            <div class="flex-cont-bloc-exp">
+
+                <div class="bloc bloc1">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Développeur Web & Mobile Full Stack | Projets collectifs |
+                            Stagiaire
+                            <br><strong>Wild Code School</strong> - <span class="txt-date">Février 2023 -
+                                Juillet 2023 - [REMOTE]</span>
+                        </p>
+                        <p class="txt-section"><i class="skills">Compétences utilisées :</i> <i>- Frameworks
+                                (Symfony,
+                                Bootstrap), Appel d'une
+                                API,
+                                HTML, CSS, JS , PHP, Backlog, HTML, CSS, JS , PHP, MySQL,
+                                Git/Github Workflow, Gestion de projet (Méthodes Agile - SCRUM), Figma, HTML, CSS,
+                                JS ;</i></p>
+                    </div>
+                </div>
+
+                <div class="bloc bloc2">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Développeur Web - Stagiaire | Immersion Professionnelle
+                            <br><strong>Sedipec</strong> - <span class="txt-date">Novembre - Décembre 2022 -
+                                [REMOTE]</span>
+                        </p>
+                        <p class="txt-section"><i class="skills">Compétences utilisées :</i>
+                            <i>- HTML, CSS (Intégration d'un site statique) - Curiosité intellectuelle, Capacité
+                                d’adaptation, Goût pour le travail en équipe ;</i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bloc bloc3">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Professeur contractuel | Lettres - Histoire - Géographie
+                            <br><strong>Education Nationale - Lycée professionnel Sonia DELAUNAY</strong> - <span
+                                class="txt-date">Février 2021 - Juillet 2021 - Blois</span>
+                        </p>
+                        <p class="txt-section"><i class="skills">Compétences utilisées :</i><i>
+                                - Sens de l’initiative
+                                - Sens relationnel
+                                - Capacité d’écoute ;</i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bloc bloc4">
+                    <div class="contenu-bloc">
+                        <p class="titre-section-bloc">Backpacker
+                            <br><strong>Reportage Photo Amateur</strong> - <span class="txt-date">Avril - Mai 2018 -
+                                Japon | Tokyo à Hiroshima</span>
+                        </p>
+                        <p class="txt-section"><i class="skills">Compétences utilisées :</i><i>
+                                - Réservation et préparation de voyage : coordination logistique complète (vols,
+                                d'hébergement et de transports)
+                                - Photographie, création d'une collection de photographies de paysages urbains &
+                                utilisation
+                                de logiciels de retouche photo ;</i>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Section Parallax__________________________ -->
+
+    <div class="section-parallax">
+        <p class="txt-par-1">Records personnels :</p>
+        <p class="txt-par">
+            731 tasses de café / an
+        </p>
+        <p class="txt-par">
+            5 projets
+        </p>
+        <p class="txt-par">
+            5 clients
+        </p>
+    </div>
+
+    <!-- Section Contact__________________________ -->
+
+    <section class="section-contact" id="contact">
+
+        <h2 class="text-center"><strong>Contactez - moi !</strong><br><i
+                class="fa-solid fa-hand-point-down fa-beat"></i>
+        </h2>
+
+        <div class="container-form d-flex align-items-center justify-content-center">
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSczuhONNB-vCqUMtGgWf1bzaYQ1kWJkBbx1zX75E455CbeeFA/viewform?embedded=true"
+                width="700" height="900" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+        </div>
+
+    </section>
+
+    <footer>
+        <!-- Tout Droits réservés &copy;__________________________ -->
+        <div class="container-fluide footerBC d-flex justify-content-between align-content-center">
+            <h6 class="itemFooter pt-5 px-5">
+                © Copyright 2023 - Baptiste CHASSET - Tous droits réservés.
+            </h6>
+            <h6 class="pt-5 px-5">
+                <a class="iconFooter itemFooter text-decoration-none pe-3"
+                    href="https://fr.linkedin.com/in/baptistechasset" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-2x iconFooter"></i>
+                </a>
+                <a class="iconFooter itemFooter text-decoration-none pe-3" href="https://github.com/BlueEel"
+                    target="_blank">
+                    <i class="fa-brands fa-github fa-2x iconFooter"></i>
+                </a>
+                <a class="iconFooter itemFooter text-decoration-none pe-3" href="mailto:baptiste.chasset@gmail.com"
+                    target="_blank">
+                    <i class="fa-solid fa-envelope fa-2x iconFooter"></i>
+                </a>
+            </h6>
+            <h6 class="pt-5 px-5">
+                <a class="iconFooter itemFooter text-decoration-none" href="#">
+                    Mentions Légales</a>
+                |
+                <a class="iconFooter itemFooter text-decoration-none" href="#">
+                    FAQ</a>
+                |
+                <a class="iconFooter itemFooter text-decoration-none" href="#">
+                    Politique de confidentialité</a>
+            </h6>
+        </div>
+        <h6>
+            <p class="text-end version pe-4">Portfolio - Version 1.1</p>
+        </h6>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
