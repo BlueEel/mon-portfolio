@@ -778,9 +778,9 @@ hr {
     .cont-img-port {
         height: auto;
     }
-    .contenu-bloc {
+    /* .contenu-bloc {
         overflow: auto;
-    }
+    } */
 }
 
 /*--------- Section Skill - Compétences -------------- */
