@@ -6,7 +6,7 @@ Bienvenue sur mon portfolio GitHub ! Ce dépôt contient le code source et les f
 
 Ce portfolio a été créé pour mettre en valeur mes compétences en développement web et pour présenter certains de mes projets. Vous y trouverez des informations sur mes compétences techniques, mon expérience professionnelle et mes réalisations.
 
-Visitez mon portfolio en ligne : [Lien vers mon portfolio]([https://blueeel.github.io/mon-portfolio/])
+Visitez mon portfolio en ligne : https://blueeel.github.io/mon-portfolio/
 
 ## Contenu
 
